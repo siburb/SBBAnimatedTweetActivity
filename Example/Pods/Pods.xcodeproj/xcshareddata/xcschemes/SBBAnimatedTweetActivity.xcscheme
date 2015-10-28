@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "951C10D05CDB0AF25134D093"
+               BlueprintIdentifier = "0E719B7814A0B747B0BFCE60"
                BuildableName = "SBBAnimatedTweetActivity.framework"
                BlueprintName = "SBBAnimatedTweetActivity"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,6 +1,6 @@
 {
   "name": "SBBAnimatedTweetActivity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A UIActivity subclass for posting animated GIF's to Twitter.",
   "description": "SBBAnimatedTweetActivity is a replacement for the built-in Twitter UIActivity that handles animated images. This is due to the built-in Twitter UIActivity posting a still frame from an animated GIF to Tweets instead of the animated GIF itself.",
   "homepage": "https://github.com/siburb/SBBAnimatedTweetActivity",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/siburb/SBBAnimatedTweetActivity.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/siburb",
   "platforms": {
