@@ -1,6 +1,6 @@
 PODS:
   - FLAnimatedImage (1.0.8)
-  - SBBAnimatedTweetActivity (0.1.2):
+  - SBBAnimatedTweetActivity (0.1.3):
     - FLAnimatedImage (~> 1.0.8)
 
 DEPENDENCIES:
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
-  SBBAnimatedTweetActivity: 5090820df8da61b20d3df55d48459dfb4ba2caff
+  SBBAnimatedTweetActivity: 5741975259ff0d5169191af986dc65afe2451146
 
 COCOAPODS: 0.38.2
