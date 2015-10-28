@@ -1,0 +1,6 @@
+framework module SBBAnimatedTweetActivity {
+  umbrella header "SBBAnimatedTweetActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}
