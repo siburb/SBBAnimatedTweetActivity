@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SBBAnimatedTweetActivity"
-  s.version          = "0.1.3"
+  s.version          = "0.2.0"
   s.summary          = "A UIActivity subclass for posting animated GIF's to Twitter."
  
   s.description      = <<-DESC

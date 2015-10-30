@@ -7,75 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011699CAE2E825DFA70F306E7FDE4B1E /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 468570B46A3C6487B359780824B8679C /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0614C838D47DB2C9C2D46EBB6512308B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A214D00831B1A40D06F11427D24268F3 /* Foundation.framework */; };
+		01AA7009D87F740FA12ED7E5C6590682 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D281273FE26F23F3A3183EFD9D83D89 /* FLAnimatedImage.m */; };
+		0614C838D47DB2C9C2D46EBB6512308B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B52E48A8892C0BB34CF39C8B120D7D /* Foundation.framework */; };
 		1036F26CA4E91B2A31FBD132C615CB2E /* Pods-SBBAnimatedTweetActivity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76852C8DC3264FC0683DDB4B529583A4 /* Pods-SBBAnimatedTweetActivity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8922F0EE276F10CDC4F4EF5ABDBEE4 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 726857688AF647AFE4445BE0BB0B7696 /* FLAnimatedImage.m */; };
+		124EFC04B88B0F099D3487E421BBA014 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 50810E80809AC57C10068779DE97BEA4 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F79144A4C22C7E65FFB34854FA6DC7B /* SBBAnimatedTweetActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2E7748C59A9B55D364C8BF5571A433C /* SBBAnimatedTweetActivity.bundle */; };
-		38FA6D2CA0508F9B96A72FD2C10AA687 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AE7DEEDF4B2844DC973AC5C521F573 /* ImageIO.framework */; };
+		41F502171470836D0290EA8B4945C366 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93234C592BE4EB62298AE287F801F58F /* QuartzCore.framework */; };
 		4DCC8DA9EBED4E2D5C565CA26B00F15F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208750F90A057935F12836FB00EABF97 /* Social.framework */; };
 		5463B8817FED6F05A8BAFD8DCBA1CDE1 /* SBBAnimatedTweetActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E855395A8E0EA19CC181D774C8FB6C /* SBBAnimatedTweetActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EFA4C74FE61156424AEF850655D34DF /* SBBTwitterAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AC30AF9D8459CE0541E842FEE2C630 /* SBBTwitterAccountTableViewCell.m */; };
+		60BC6574F4A5AB96FB71EDE944D06D3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC74C89CE4140F36913BDEDE55E5C2 /* CoreGraphics.framework */; };
 		656601C22CD2BD39140E97B812190300 /* SBBAnimatedTweetActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1064F7AD976A2BC84D3A9AC31238544F /* SBBAnimatedTweetActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71D0A6D024BFC5CF39FE5FBCBC4E7134 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18B209BC0505F93597FAA2EC3C8DC56 /* FLAnimatedImage.framework */; };
-		7675C46A36CA7370CC9E9ED69CB4264F /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F44AA451F295EFEB2B0C83E49374B9 /* FLAnimatedImageView.m */; };
 		7FB8142DFA228E1B6B53EB22F7D6864F /* SBBAnimatedTweetActivity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E9564855C122B139C12F25EDB2F0839 /* SBBAnimatedTweetActivity.storyboard */; };
-		7FCE779EF2B58FA367545452A989F768 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731EE6150B0B0D98CDE8B1420D58E71D /* MobileCoreServices.framework */; };
-		8537F668B8FC958B94A32882884777E3 /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C05F840D8D4ACBD9B951229A6E1058A3 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D640750F9A7EDE6AA693FA29263C916 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9947FA0AE7A2B2FF41F19219F68CD74D /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6C13AA31B1ECA220FAF8BE5BF11C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B52E48A8892C0BB34CF39C8B120D7D /* Foundation.framework */; };
+		90F930AC38D9F4A2A2E9E2E74243C24E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1B7CCC0DA82328940A91B789627082 /* ImageIO.framework */; };
 		9578E7DF5F0C004C5C699FB3EABD057F /* SBBAnimatedTweetComposeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 278BF0F8850BACEB6858F6244B165B50 /* SBBAnimatedTweetComposeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A64FEEB0A19E36E3ACE9B80547B036 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B568251AF31D2A59C8FA759184411237 /* FLAnimatedImage-dummy.m */; };
-		A5BF27B7E021633374A456B900AB336C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731EE6150B0B0D98CDE8B1420D58E71D /* MobileCoreServices.framework */; };
+		A5BF27B7E021633374A456B900AB336C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03799CC98F5FFC9FFA1F37E8ACF4ABC2 /* MobileCoreServices.framework */; };
+		A647D5ACA87E85A6508CFFB265708F7F /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BEFBB92D6CD596B190DAA5FC18D526 /* FLAnimatedImageView.m */; };
 		AC8E7AA75492B0A0DAEA91E3DDD5FB52 /* Pods-SBBAnimatedTweetActivity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B27C8F90E623D34ABE3820A064A46FE /* Pods-SBBAnimatedTweetActivity_Example-dummy.m */; };
 		AF974C6D7989F7D4BD3C56C26CC06E5D /* SBBAnimatedTweetActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D64A1343676B55BFF16BE0D6033522 /* SBBAnimatedTweetActivity.m */; };
-		CC281BDAC7F45FD77F5EE4D82589CC56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A214D00831B1A40D06F11427D24268F3 /* Foundation.framework */; };
+		BDF6AC5B4D3A10EE46ACC6956A576D95 /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC2779A0884CFF2EF51CE61BCE5F9A2 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3BB327380E233E7D698965D4AC1A9E8 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A58170C3F87BB6F1296F386C21C857F /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1329016CC8D4C14589FC2BDB0B62FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223E8BD2118ED4DA2D6FC78467A88072 /* UIKit.framework */; };
 		D7E732B862A1C228A061E88B724574B5 /* SBBAnimatedTweetComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976AA9786BD468E8ACB5E8A30F90AD9 /* SBBAnimatedTweetComposeViewController.m */; };
+		D8CD295C85D54742D44B3E94F8D1381D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03799CC98F5FFC9FFA1F37E8ACF4ABC2 /* MobileCoreServices.framework */; };
 		D9D5E97E4AE8F4DF64A55F0BE487B48E /* SBBTwitterAccountTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EB255B3A828FCD34307E8A37A2D5C561 /* SBBTwitterAccountTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCA4C0CE60E5BBED5BCFCF76ADC62A64 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DF17376BC88BC3843B75056A4A9811 /* Accounts.framework */; };
-		DD1128D20FB2F8FEF30ADABB8784271E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC7949611D08D3CD1F9C7C703576226 /* QuartzCore.framework */; };
 		E4A6FA1944025D1E8938B4030471FA92 /* SBBAnimatedTweetActivity.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11725AB4F2F2CD39B3784FA796BDB99 /* SBBAnimatedTweetActivity.xcassets */; };
-		EAD62E91EC6F798D36EE03B148EBD2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A214D00831B1A40D06F11427D24268F3 /* Foundation.framework */; };
+		EAD62E91EC6F798D36EE03B148EBD2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B52E48A8892C0BB34CF39C8B120D7D /* Foundation.framework */; };
+		EBE4B237F3CE670B4711A3001F0A9416 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A10EB1639CD8A6176396DFFC9421E7 /* FLAnimatedImage-dummy.m */; };
 		F04F1F7BD91E1EB937879EA9AC1451C2 /* SBBAnimatedTweetActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B0290A690C9B3A7761863F17364B3 /* SBBAnimatedTweetActivity-dummy.m */; };
-		F496081683372B559AC133D3967E4B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EB57A6D733E1401A195DA6FBC26622 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		090ED89BCFBBFCC17BD7CFC3F57D74B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D8D3567ED974D32D4CC7BB89BE26A64;
-			remoteInfo = FLAnimatedImage;
-		};
-		1434939C2C9DCF53D4D57A79E8611293 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9292F8F8BF138D0B9ADDA043AFDD076F;
-			remoteInfo = SBBAnimatedTweetActivity;
-		};
-		59855221830F96D360305F8FD6EB545C /* PBXContainerItemProxy */ = {
+		10B7175AD70E5BEEA93470CF89714017 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BAAE3A839A4277468616370498275387;
 			remoteInfo = "SBBAnimatedTweetActivity-SBBAnimatedTweetActivity";
 		};
-		6DD90B7E2261415A99F7F1DAC12C3432 /* PBXContainerItemProxy */ = {
+		5FE1AF6ED1E0FFB3F053837E8745D7B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D8D3567ED974D32D4CC7BB89BE26A64;
+			remoteGlobalIDString = C1D2C207B659B290FF118A3D5B386BEA;
+			remoteInfo = FLAnimatedImage;
+		};
+		645F56DC206720E1DDCDE073DA118F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9292F8F8BF138D0B9ADDA043AFDD076F;
+			remoteInfo = SBBAnimatedTweetActivity;
+		};
+		97AC1336D3B2ACE32AE0CB31C57ECB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D2C207B659B290FF118A3D5B386BEA;
 			remoteInfo = FLAnimatedImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03799CC98F5FFC9FFA1F37E8ACF4ABC2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		05E855395A8E0EA19CC181D774C8FB6C /* SBBAnimatedTweetActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBBAnimatedTweetActivity-umbrella.h"; sourceTree = "<group>"; };
 		1064F7AD976A2BC84D3A9AC31238544F /* SBBAnimatedTweetActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBBAnimatedTweetActivity.h; sourceTree = "<group>"; };
 		11E2CCB8AD7994C3DB94957321E70195 /* SBBAnimatedTweetActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBBAnimatedTweetActivity.xcconfig; sourceTree = "<group>"; };
 		16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SBBAnimatedTweetActivity-Private.xcconfig"; sourceTree = "<group>"; };
+		16BC74C89CE4140F36913BDEDE55E5C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1A58170C3F87BB6F1296F386C21C857F /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		1B27C8F90E623D34ABE3820A064A46FE /* Pods-SBBAnimatedTweetActivity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SBBAnimatedTweetActivity_Example-dummy.m"; sourceTree = "<group>"; };
 		208750F90A057935F12836FB00EABF97 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
 		20BE3D16217020440157B1840CE35F1D /* Pods_SBBAnimatedTweetActivity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBBAnimatedTweetActivity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,43 +86,40 @@
 		243063AFEAB8E7BEEB7EFE0D7C5CAA11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2508AACBD7EDEB76EBE7F19002D6D5AF /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
 		278BF0F8850BACEB6858F6244B165B50 /* SBBAnimatedTweetComposeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBBAnimatedTweetComposeViewController.h; sourceTree = "<group>"; };
-		3FC7949611D08D3CD1F9C7C703576226 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		43B09F0C239E9D43ED3FF0D60DE2BE7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4595440D14D7005EDF56EE4F5ED972B4 /* SBBAnimatedTweetActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SBBAnimatedTweetActivity.modulemap; sourceTree = "<group>"; };
-		468570B46A3C6487B359780824B8679C /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		46A10EB1639CD8A6176396DFFC9421E7 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
 		482404B04755AF199DDA303A3A054D71 /* SBBAnimatedTweetActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBBAnimatedTweetActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4976AA9786BD468E8ACB5E8A30F90AD9 /* SBBAnimatedTweetComposeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBBAnimatedTweetComposeViewController.m; sourceTree = "<group>"; };
 		507EC1555E817C5E529DA66D9D3A3E88 /* Pods-SBBAnimatedTweetActivity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SBBAnimatedTweetActivity_Example-frameworks.sh"; sourceTree = "<group>"; };
-		53AE7DEEDF4B2844DC973AC5C521F573 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		50810E80809AC57C10068779DE97BEA4 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
 		64E99210E16E75A9DFCB2BFF936966E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		726857688AF647AFE4445BE0BB0B7696 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
-		731EE6150B0B0D98CDE8B1420D58E71D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		754663BA5A9116756281809EA93249EC /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
 		76852C8DC3264FC0683DDB4B529583A4 /* Pods-SBBAnimatedTweetActivity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SBBAnimatedTweetActivity_Example-umbrella.h"; sourceTree = "<group>"; };
 		7A0B0290A690C9B3A7761863F17364B3 /* SBBAnimatedTweetActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBBAnimatedTweetActivity-dummy.m"; sourceTree = "<group>"; };
+		7D281273FE26F23F3A3183EFD9D83D89 /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
 		7E9564855C122B139C12F25EDB2F0839 /* SBBAnimatedTweetActivity.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SBBAnimatedTweetActivity.storyboard; sourceTree = "<group>"; };
 		84B40531DDF35AD4780330A51A8B2EE7 /* Pods-SBBAnimatedTweetActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBBAnimatedTweetActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		871D4ACEEA60BE2F8C7F270CA0F36122 /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
-		9947FA0AE7A2B2FF41F19219F68CD74D /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		93234C592BE4EB62298AE287F801F58F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		9FFBB7F4B51E54A09D43C5293C7D7D13 /* Pods-SBBAnimatedTweetActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBBAnimatedTweetActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A214D00831B1A40D06F11427D24268F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A4AC30AF9D8459CE0541E842FEE2C630 /* SBBTwitterAccountTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBBTwitterAccountTableViewCell.m; sourceTree = "<group>"; };
+		AF1B7CCC0DA82328940A91B789627082 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		B18B209BC0505F93597FAA2EC3C8DC56 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B568251AF31D2A59C8FA759184411237 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		B72A69442326DAB54A9C18093E7AA5D9 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C05F840D8D4ACBD9B951229A6E1058A3 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
 		CC2518FA67BDF5118BA3EEBA8D558B9C /* Pods-SBBAnimatedTweetActivity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SBBAnimatedTweetActivity_Example.modulemap"; sourceTree = "<group>"; };
 		D2E7748C59A9B55D364C8BF5571A433C /* SBBAnimatedTweetActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBBAnimatedTweetActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D320132B26E080B3E4D1BABAEB97B55F /* FLAnimatedImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FLAnimatedImage-Private.xcconfig"; sourceTree = "<group>"; };
 		D5D64A1343676B55BFF16BE0D6033522 /* SBBAnimatedTweetActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SBBAnimatedTweetActivity.m; sourceTree = "<group>"; };
-		D7E4D869A5B5B406EB330B2458F030C4 /* FLAnimatedImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FLAnimatedImage-Private.xcconfig"; sourceTree = "<group>"; };
+		D6BEFBB92D6CD596B190DAA5FC18D526 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		DDC2779A0884CFF2EF51CE61BCE5F9A2 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
 		E11725AB4F2F2CD39B3784FA796BDB99 /* SBBAnimatedTweetActivity.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = SBBAnimatedTweetActivity.xcassets; sourceTree = "<group>"; };
 		E3551217E046E1A119F550E7054E5F52 /* Pods-SBBAnimatedTweetActivity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SBBAnimatedTweetActivity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E58B38A106B33BFA0BBC5D969A660019 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB255B3A828FCD34307E8A37A2D5C561 /* SBBTwitterAccountTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBBTwitterAccountTableViewCell.h; sourceTree = "<group>"; };
-		F0F44AA451F295EFEB2B0C83E49374B9 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImageDemo/FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
 		F2BFA9A9988F48D50A1A5CF9C97BB2EA /* SBBAnimatedTweetActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBBAnimatedTweetActivity-prefix.pch"; sourceTree = "<group>"; };
-		F5EB57A6D733E1401A195DA6FBC26622 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		F6DF17376BC88BC3843B75056A4A9811 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		F8B52E48A8892C0BB34CF39C8B120D7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FCCF0B9DB5CAB909B67A448A2B00764B /* Pods-SBBAnimatedTweetActivity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBBAnimatedTweetActivity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FFFD013123776BF1645F29C1585AF833 /* Pods-SBBAnimatedTweetActivity_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SBBAnimatedTweetActivity_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,23 +132,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DAB5B2A71AEA7BC81CFF3E05CAD67A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F496081683372B559AC133D3967E4B9A /* CoreGraphics.framework in Frameworks */,
-				CC281BDAC7F45FD77F5EE4D82589CC56 /* Foundation.framework in Frameworks */,
-				38FA6D2CA0508F9B96A72FD2C10AA687 /* ImageIO.framework in Frameworks */,
-				7FCE779EF2B58FA367545452A989F768 /* MobileCoreServices.framework in Frameworks */,
-				DD1128D20FB2F8FEF30ADABB8784271E /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7AFC268378B7B6116AF61566B65457F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EAD62E91EC6F798D36EE03B148EBD2C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D30C5564D923802ED869A3060ABB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC6574F4A5AB96FB71EDE944D06D3D /* CoreGraphics.framework in Frameworks */,
+				8B6C13AA31B1ECA220FAF8BE5BF11C79 /* Foundation.framework in Frameworks */,
+				90F930AC38D9F4A2A2E9E2E74243C24E /* ImageIO.framework in Frameworks */,
+				D8CD295C85D54742D44B3E94F8D1381D /* MobileCoreServices.framework in Frameworks */,
+				41F502171470836D0290EA8B4945C366 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +252,10 @@
 			children = (
 				754663BA5A9116756281809EA93249EC /* FLAnimatedImage.modulemap */,
 				2508AACBD7EDEB76EBE7F19002D6D5AF /* FLAnimatedImage.xcconfig */,
-				D7E4D869A5B5B406EB330B2458F030C4 /* FLAnimatedImage-Private.xcconfig */,
-				B568251AF31D2A59C8FA759184411237 /* FLAnimatedImage-dummy.m */,
+				D320132B26E080B3E4D1BABAEB97B55F /* FLAnimatedImage-Private.xcconfig */,
+				46A10EB1639CD8A6176396DFFC9421E7 /* FLAnimatedImage-dummy.m */,
 				871D4ACEEA60BE2F8C7F270CA0F36122 /* FLAnimatedImage-prefix.pch */,
-				C05F840D8D4ACBD9B951229A6E1058A3 /* FLAnimatedImage-umbrella.h */,
+				DDC2779A0884CFF2EF51CE61BCE5F9A2 /* FLAnimatedImage-umbrella.h */,
 				243063AFEAB8E7BEEB7EFE0D7C5CAA11 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -273,10 +273,10 @@
 		AB07947BE1BD0C65AD413B22D4CAFC6C /* FLAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
-				468570B46A3C6487B359780824B8679C /* FLAnimatedImage.h */,
-				726857688AF647AFE4445BE0BB0B7696 /* FLAnimatedImage.m */,
-				9947FA0AE7A2B2FF41F19219F68CD74D /* FLAnimatedImageView.h */,
-				F0F44AA451F295EFEB2B0C83E49374B9 /* FLAnimatedImageView.m */,
+				50810E80809AC57C10068779DE97BEA4 /* FLAnimatedImage.h */,
+				7D281273FE26F23F3A3183EFD9D83D89 /* FLAnimatedImage.m */,
+				1A58170C3F87BB6F1296F386C21C857F /* FLAnimatedImageView.h */,
+				D6BEFBB92D6CD596B190DAA5FC18D526 /* FLAnimatedImageView.m */,
 				8DFFCEF08847E1B511E2EE79516753B4 /* Support Files */,
 			);
 			path = FLAnimatedImage;
@@ -293,7 +293,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E58B38A106B33BFA0BBC5D969A660019 /* FLAnimatedImage.framework */,
+				B72A69442326DAB54A9C18093E7AA5D9 /* FLAnimatedImage.framework */,
 				20BE3D16217020440157B1840CE35F1D /* Pods_SBBAnimatedTweetActivity_Example.framework */,
 				D2E7748C59A9B55D364C8BF5571A433C /* SBBAnimatedTweetActivity.bundle */,
 				482404B04755AF199DDA303A3A054D71 /* SBBAnimatedTweetActivity.framework */,
@@ -323,11 +323,11 @@
 			isa = PBXGroup;
 			children = (
 				F6DF17376BC88BC3843B75056A4A9811 /* Accounts.framework */,
-				F5EB57A6D733E1401A195DA6FBC26622 /* CoreGraphics.framework */,
-				A214D00831B1A40D06F11427D24268F3 /* Foundation.framework */,
-				53AE7DEEDF4B2844DC973AC5C521F573 /* ImageIO.framework */,
-				731EE6150B0B0D98CDE8B1420D58E71D /* MobileCoreServices.framework */,
-				3FC7949611D08D3CD1F9C7C703576226 /* QuartzCore.framework */,
+				16BC74C89CE4140F36913BDEDE55E5C2 /* CoreGraphics.framework */,
+				F8B52E48A8892C0BB34CF39C8B120D7D /* Foundation.framework */,
+				AF1B7CCC0DA82328940A91B789627082 /* ImageIO.framework */,
+				03799CC98F5FFC9FFA1F37E8ACF4ABC2 /* MobileCoreServices.framework */,
+				93234C592BE4EB62298AE287F801F58F /* QuartzCore.framework */,
 				208750F90A057935F12836FB00EABF97 /* Social.framework */,
 				223E8BD2118ED4DA2D6FC78467A88072 /* UIKit.framework */,
 			);
@@ -359,16 +359,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B5EC0DB9FE3883883021D597D6068FD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8537F668B8FC958B94A32882884777E3 /* FLAnimatedImage-umbrella.h in Headers */,
-				011699CAE2E825DFA70F306E7FDE4B1E /* FLAnimatedImage.h in Headers */,
-				8D640750F9A7EDE6AA693FA29263C916 /* FLAnimatedImageView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2F5ECF18A86ADFC068AF9546BCC3CE2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +367,16 @@
 				656601C22CD2BD39140E97B812190300 /* SBBAnimatedTweetActivity.h in Headers */,
 				9578E7DF5F0C004C5C699FB3EABD057F /* SBBAnimatedTweetComposeViewController.h in Headers */,
 				D9D5E97E4AE8F4DF64A55F0BE487B48E /* SBBTwitterAccountTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC12C929FA99E12928576B42982B605A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6AC5B4D3A10EE46ACC6956A576D95 /* FLAnimatedImage-umbrella.h in Headers */,
+				124EFC04B88B0F099D3487E421BBA014 /* FLAnimatedImage.h in Headers */,
+				C3BB327380E233E7D698965D4AC1A9E8 /* FLAnimatedImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,23 +391,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7D8D3567ED974D32D4CC7BB89BE26A64 /* FLAnimatedImage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8E7A53CA7F29C8143A641D6AD4F6D5A /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
-			buildPhases = (
-				BF100F2648560C8AA8B0637D66138893 /* Sources */,
-				6DAB5B2A71AEA7BC81CFF3E05CAD67A5 /* Frameworks */,
-				0B5EC0DB9FE3883883021D597D6068FD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FLAnimatedImage;
-			productName = FLAnimatedImage;
-			productReference = E58B38A106B33BFA0BBC5D969A660019 /* FLAnimatedImage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9292F8F8BF138D0B9ADDA043AFDD076F /* SBBAnimatedTweetActivity */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B358B6834678AA9A0347C5E301B0E461 /* Build configuration list for PBXNativeTarget "SBBAnimatedTweetActivity" */;
@@ -420,8 +403,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				9019B755DBB7532999AEE3EDDBA61691 /* PBXTargetDependency */,
-				A1681163A41043973F9DFF8A6EF1C1F7 /* PBXTargetDependency */,
+				D9F9A21B1E460A83ED69D27A1114222F /* PBXTargetDependency */,
+				7A1B0B22FAF283BCABE33329DC5B0451 /* PBXTargetDependency */,
 			);
 			name = SBBAnimatedTweetActivity;
 			productName = SBBAnimatedTweetActivity;
@@ -439,8 +422,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				8349AB94F986123FC1C86C04D4B97BEF /* PBXTargetDependency */,
-				F106E71B626731D0D7A2C31A99E98CA5 /* PBXTargetDependency */,
+				7D97D11DFE5D9EABDEABAAD9B15F0889 /* PBXTargetDependency */,
+				E48457696EA1AFCD7FB50374F865B473 /* PBXTargetDependency */,
 			);
 			name = "Pods-SBBAnimatedTweetActivity_Example";
 			productName = "Pods-SBBAnimatedTweetActivity_Example";
@@ -464,6 +447,23 @@
 			productReference = D2E7748C59A9B55D364C8BF5571A433C /* SBBAnimatedTweetActivity.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		C1D2C207B659B290FF118A3D5B386BEA /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28EEB1B0CEE6FC35AAFB51D759F02B6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				6C7F10616AE9C70DCDB8BF77BC938FE8 /* Sources */,
+				90D30C5564D923802ED869A3060ABB45 /* Frameworks */,
+				CC12C929FA99E12928576B42982B605A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = B72A69442326DAB54A9C18093E7AA5D9 /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -485,7 +485,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D8D3567ED974D32D4CC7BB89BE26A64 /* FLAnimatedImage */,
+				C1D2C207B659B290FF118A3D5B386BEA /* FLAnimatedImage */,
 				A3229BB3B451970F106580AEB156C47A /* Pods-SBBAnimatedTweetActivity_Example */,
 				9292F8F8BF138D0B9ADDA043AFDD076F /* SBBAnimatedTweetActivity */,
 				BAAE3A839A4277468616370498275387 /* SBBAnimatedTweetActivity-SBBAnimatedTweetActivity */,
@@ -522,6 +522,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C7F10616AE9C70DCDB8BF77BC938FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE4B237F3CE670B4711A3001F0A9416 /* FLAnimatedImage-dummy.m in Sources */,
+				01AA7009D87F740FA12ED7E5C6590682 /* FLAnimatedImage.m in Sources */,
+				A647D5ACA87E85A6508CFFB265708F7F /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7301EB2A88A329B6EDBAFF0A8F2AA90B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,46 +550,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF100F2648560C8AA8B0637D66138893 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A64FEEB0A19E36E3ACE9B80547B036 /* FLAnimatedImage-dummy.m in Sources */,
-				1C8922F0EE276F10CDC4F4EF5ABDBEE4 /* FLAnimatedImage.m in Sources */,
-				7675C46A36CA7370CC9E9ED69CB4264F /* FLAnimatedImageView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8349AB94F986123FC1C86C04D4B97BEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FLAnimatedImage;
-			target = 7D8D3567ED974D32D4CC7BB89BE26A64 /* FLAnimatedImage */;
-			targetProxy = 6DD90B7E2261415A99F7F1DAC12C3432 /* PBXContainerItemProxy */;
-		};
-		9019B755DBB7532999AEE3EDDBA61691 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FLAnimatedImage;
-			target = 7D8D3567ED974D32D4CC7BB89BE26A64 /* FLAnimatedImage */;
-			targetProxy = 090ED89BCFBBFCC17BD7CFC3F57D74B2 /* PBXContainerItemProxy */;
-		};
-		A1681163A41043973F9DFF8A6EF1C1F7 /* PBXTargetDependency */ = {
+		7A1B0B22FAF283BCABE33329DC5B0451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SBBAnimatedTweetActivity-SBBAnimatedTweetActivity";
 			target = BAAE3A839A4277468616370498275387 /* SBBAnimatedTweetActivity-SBBAnimatedTweetActivity */;
-			targetProxy = 59855221830F96D360305F8FD6EB545C /* PBXContainerItemProxy */;
+			targetProxy = 10B7175AD70E5BEEA93470CF89714017 /* PBXContainerItemProxy */;
 		};
-		F106E71B626731D0D7A2C31A99E98CA5 /* PBXTargetDependency */ = {
+		7D97D11DFE5D9EABDEABAAD9B15F0889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = C1D2C207B659B290FF118A3D5B386BEA /* FLAnimatedImage */;
+			targetProxy = 5FE1AF6ED1E0FFB3F053837E8745D7B0 /* PBXContainerItemProxy */;
+		};
+		D9F9A21B1E460A83ED69D27A1114222F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = C1D2C207B659B290FF118A3D5B386BEA /* FLAnimatedImage */;
+			targetProxy = 97AC1336D3B2ACE32AE0CB31C57ECB88 /* PBXContainerItemProxy */;
+		};
+		E48457696EA1AFCD7FB50374F865B473 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SBBAnimatedTweetActivity;
 			target = 9292F8F8BF138D0B9ADDA043AFDD076F /* SBBAnimatedTweetActivity */;
-			targetProxy = 1434939C2C9DCF53D4D57A79E8611293 /* PBXContainerItemProxy */;
+			targetProxy = 645F56DC206720E1DDCDE073DA118F0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2907E5049BA392FD89794204D84AEBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBBAnimatedTweetActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SBBAnimatedTweetActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		361FDEC893D8D26705C91F0FF3E65994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */;
@@ -621,33 +648,6 @@
 			};
 			name = Debug;
 		};
-		65612FF031DBFD560BB82CF4D874B10C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E4D869A5B5B406EB330B2458F030C4 /* FLAnimatedImage-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.8;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FLAnimatedImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6BF3D2036D2A56B0E858B3CD5F2F9102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84B40531DDF35AD4780330A51A8B2EE7 /* Pods-SBBAnimatedTweetActivity_Example.release.xcconfig */;
@@ -676,60 +676,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8386BF7E5B66040D620683BCC62750AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SBBAnimatedTweetActivity/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SBBAnimatedTweetActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A42BAC1D46156A25D9459DD9CFD0EEA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SBBAnimatedTweetActivity/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SBBAnimatedTweetActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -770,9 +716,9 @@
 			};
 			name = Debug;
 		};
-		EB9F44D36DBB5C29719BFF6610833A41 /* Release */ = {
+		A71DB43E5F90F47B78ED140542AD623E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E4D869A5B5B406EB330B2458F030C4 /* FLAnimatedImage-Private.xcconfig */;
+			baseConfigurationReference = D320132B26E080B3E4D1BABAEB97B55F /* FLAnimatedImage-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.8;
@@ -796,6 +742,60 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C5C1306AACE6F4357C1107F8EBD21D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16189382E5AD988D5A7B5C247C095CA8 /* SBBAnimatedTweetActivity-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBBAnimatedTweetActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SBBAnimatedTweetActivity/SBBAnimatedTweetActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SBBAnimatedTweetActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E49FE98D05AF56EB629B9647F00E07B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D320132B26E080B3E4D1BABAEB97B55F /* FLAnimatedImage-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.8;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -876,17 +876,17 @@
 		B358B6834678AA9A0347C5E301B0E461 /* Build configuration list for PBXNativeTarget "SBBAnimatedTweetActivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A42BAC1D46156A25D9459DD9CFD0EEA6 /* Debug */,
-				8386BF7E5B66040D620683BCC62750AA /* Release */,
+				C5C1306AACE6F4357C1107F8EBD21D4C /* Debug */,
+				2907E5049BA392FD89794204D84AEBC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8E7A53CA7F29C8143A641D6AD4F6D5A /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+		F28EEB1B0CEE6FC35AAFB51D759F02B6 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65612FF031DBFD560BB82CF4D874B10C /* Debug */,
-				EB9F44D36DBB5C29719BFF6610833A41 /* Release */,
+				E49FE98D05AF56EB629B9647F00E07B6 /* Debug */,
+				A71DB43E5F90F47B78ED140542AD623E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

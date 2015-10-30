@@ -12,8 +12,14 @@
 @import Social;
 @import MobileCoreServices;
 
+// These are the current values at 30/10/2015, however we hit the Twitter API to get the latest values
 NSInteger const kMaxTwitterCharacterCount = 140;
+NSInteger const kMaxURLCharsDefault = 23;
+NSInteger const kMaxMediaCharsDefault = 23;
+
 NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
+NSString * const TwitterMaxURLCharsKey = @"SBBAnimatedTweetMaxURLCharsKey";
+NSString * const TwitterMaxMediaCharsKey = @"SBBAnimatedTweetMaxMediaCharsKey";
 
 @interface SBBAnimatedTweetComposeViewController () <UITextViewDelegate, UITableViewDataSource, UITableViewDelegate, UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIView *composeView;
@@ -49,6 +55,8 @@ NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
 @end
 
 @implementation SBBAnimatedTweetComposeViewController
+
+#pragma mark - Lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -113,6 +121,8 @@ NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
         self.composeViewTopConstraint.constant = 0.0f;
     }
 }
+
+#pragma mark - IBActions
 
 - (IBAction)postButtonPressed:(id)sender {
     if (self.twitterAccount) {
@@ -237,6 +247,29 @@ NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
                     [[NSUserDefaults standardUserDefaults] setObject:twitterUsername forKey:TwitterAccountKey];
                     [[NSUserDefaults standardUserDefaults] synchronize];
                 }
+                
+                if (self.twitterAccount) {
+                    static dispatch_once_t onceToken;
+                    dispatch_once(&onceToken, ^{
+                        NSURL *configUrl = [NSURL URLWithString:@"https://api.twitter.com/1.1/help/configuration.json"];
+                        SLRequest *configRequest = [SLRequest requestForServiceType:SLServiceTypeTwitter requestMethod:SLRequestMethodGET URL:configUrl parameters:nil];
+                        configRequest.account = self.twitterAccount;
+                        [configRequest performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
+                            NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:NULL];
+                            self.maxImageCharacters = [jsonDict[@"characters_reserved_per_media"] integerValue];
+                            self.maxUrlCharacters = [jsonDict[@"short_url_length"] integerValue];
+                            
+                            [[NSUserDefaults standardUserDefaults] setObject:@(self.maxUrlCharacters) forKey:TwitterMaxURLCharsKey];
+                            [[NSUserDefaults standardUserDefaults] setObject:@(self.maxImageCharacters) forKey:TwitterMaxMediaCharsKey];
+                            [[NSUserDefaults standardUserDefaults] synchronize];
+                        }];
+                    });
+                    
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        self.twitterAccountLabel.text = [NSString stringWithFormat:@"@%@",self.twitterAccount.username];
+                        [self textViewDidChange:self.textView]; // To see if we can enable the postButton.
+                    });
+                }
             }
         } else {
             // Permission not granted
@@ -246,10 +279,26 @@ NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
 }
 
 - (void)setDefaultValues {
-    // Set default values
-    // These figures should be updated dynamically via the configuration.json endpoint in the Twitter API - coming soon to this pod...
-    self.maxUrlCharacters = 23;
-    self.maxImageCharacters = 23;
+    // Set default values - figures updated from "https://api.twitter.com/1.1/help/configuration.json" above
+    
+    // Max number of chars used by a URL in a Tweet e.g. a 100 char URL will only count as 23 chars
+    NSNumber *maxURLChars = [[NSUserDefaults standardUserDefaults] objectForKey:TwitterMaxURLCharsKey];
+    if (!maxURLChars) {
+        [[NSUserDefaults standardUserDefaults] setObject:@(kMaxURLCharsDefault) forKey:TwitterMaxURLCharsKey];
+        self.maxUrlCharacters = kMaxURLCharsDefault;
+    } else {
+        self.maxUrlCharacters = [maxURLChars integerValue];
+    }
+    
+    // Max number of chars used by an image in a Tweet
+    NSNumber *maxMediaChars = [[NSUserDefaults standardUserDefaults] objectForKey:TwitterMaxMediaCharsKey];
+    if (!maxMediaChars) {
+        [[NSUserDefaults standardUserDefaults] setObject:@(kMaxMediaCharsDefault) forKey:TwitterMaxMediaCharsKey];
+        self.maxImageCharacters = kMaxMediaCharsDefault;
+    } else {
+        self.maxImageCharacters = [maxMediaChars integerValue];
+    }
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 #pragma mark - UITextViewDelegate Methods
@@ -288,7 +337,7 @@ NSString * const TwitterAccountKey = @"SBBAnimatedTweetTwitterAccountKey";
     return YES;
 }
 
-#pragma mark - UITableViewDelegate Methods
+#pragma mark - UITableViewDelegate & UITableViewDataSource Methods
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"TwitterAccountCellID";
