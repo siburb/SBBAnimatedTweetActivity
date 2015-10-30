@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
-  SBBAnimatedTweetActivity: 60cd3f1d84f8ef361c58a0b93bdd6aae8abeadf2
+  SBBAnimatedTweetActivity: 2ae8ac87a2c1cb184e7f3e8928afcf2d73b28c0b
 
 COCOAPODS: 0.38.2

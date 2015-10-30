@@ -46,9 +46,8 @@ NSString *const SBBAnimatedTweetActivityType = @"SBBAnimatedTweetActivityType";
     return @"Animated Tweet";
 }
 
-- (UIImage *)activityImage {
-    NSBundle *bundle = [NSBundle bundleForClass:SBBAnimatedTweetActivity.class];
-    return [UIImage imageNamed:@"TwitterActivityIcon" inBundle:bundle compatibleWithTraitCollection:nil];
+- (UIImage *)activityImage {   
+    return [UIImage imageNamed:@"tweetActivityIcon" inBundle:[self resourcesBundle] compatibleWithTraitCollection:nil];
 }
 
 + (UIActivityCategory)activityCategory {
@@ -56,8 +55,7 @@ NSString *const SBBAnimatedTweetActivityType = @"SBBAnimatedTweetActivityType";
 }
 
 - (UIViewController *)activityViewController {
-    NSBundle *bundle = [NSBundle bundleForClass:SBBAnimatedTweetActivity.class];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"SBBAnimatedTweetActivity" bundle:bundle];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"SBBAnimatedTweetActivity" bundle:[self resourcesBundle]];
     SBBAnimatedTweetComposeViewController *composeViewController = [storyboard instantiateViewControllerWithIdentifier:@"SBBAnimatedTweetComposeViewControllerID"];
     
     NSMutableString *shareString = self.activityString.mutableCopy;
@@ -106,6 +104,16 @@ NSString *const SBBAnimatedTweetActivityType = @"SBBAnimatedTweetActivityType";
             self.activityAnimatedImageData = obj;
         }
     }];
+}
+
+#pragma mark - Utils
+
+- (NSBundle*)resourcesBundle {
+    NSBundle *podbundle = [NSBundle bundleForClass:SBBAnimatedTweetActivity.class];
+    NSURL *bundleURL = [podbundle URLForResource:@"SBBAnimatedTweetActivity" withExtension:@"bundle"];
+    NSBundle *resourcesBundle = [NSBundle bundleWithURL:bundleURL];
+    
+    return resourcesBundle;
 }
 
 @end

@@ -20,8 +20,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "SBBAnimatedTweetActivity": [
-      "Pod/Assets/*.storyboard",
-      "Pod/Assets/*.xcassets"
+      "Pod/Assets/*"
     ]
   },
   "public_header_files": "Pod/Classes/**/*.h",
